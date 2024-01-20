@@ -3,7 +3,7 @@ import {isDev} from "./constants";
 
 const baseUrl: string =
     (isDev) ?
-        import.meta.env.VITE_APP_SERVER_URL || ''
+        import.meta.env.VITE_APP_SERVER_URL || 'http://localhost:5000/api'
         : '/api';
 
 export const apiPost = async (path: string, data: {
