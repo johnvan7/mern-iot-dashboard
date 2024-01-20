@@ -1,0 +1,17 @@
+.button-group-mobile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-group-mobile button {
+    flex-basis: 50%; /* Imposta la larghezza del pulsante su metà del contenitore */
+}
+
+.button-group-mobile button:not(:last-child) {
+    margin-bottom: 10px; /* Spazio verticale tra i pulsanti */
+}
+
+button.active {
+    background-color: #2196f3; /* Colore di sfondo per il pulsante attivo */
+    color: #ffffff; /* Colore del testo per il pulsante attivo */
+}
