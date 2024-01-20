@@ -1,6 +1,6 @@
 # MERN Stack IoT Dashboard
 
-React.js Web UI - material ui - iot
+React.js dashboard - material ui - iot
 
 ## Available Scripts
 
@@ -14,8 +14,8 @@ In the project directory, you can run:
 
 ### `npm run dev`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+Now open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Screenshots
 
