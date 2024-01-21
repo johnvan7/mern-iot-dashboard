@@ -1,0 +1,19 @@
+services:
+  app:
+    build:
+      context: .
+    container_name: mern-iot-dashboard-app
+    ports:
+      - 3000:3000
+    networks:
+      - server-mongo
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo
+    container_name: mern-iot-dashboard-mongodb
+    networks:
+      - server-mongo
+
+networks:
+  server-mongo:
