@@ -14,6 +14,8 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(cors({origin: '*'}));
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use('/api', apiRouter);
 app.get('*', function (req, res) {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));

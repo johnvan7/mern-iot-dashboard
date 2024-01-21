@@ -28,9 +28,10 @@
   },
   "scripts": {
     "dev": "vite",
+    "local": "vite --host --no-open",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && wsl -e ./deploy-ssh.sh ec2-user 15.160.173.128 /home/ec2-user/repos/pwc-service/public"
+    "test": "echo \"Error: no test specified\""
   },
   "eslintConfig": {
     "extends": [

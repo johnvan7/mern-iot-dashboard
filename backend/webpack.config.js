@@ -11,9 +11,9 @@ module.exports = (env, args) => {
         cache: true,
         target: "node",
         output: {
-            filename: "bundle.js",
-            path: path.join(__dirname, 'dist'),
-            clean: true
+            filename: "server.js",
+            path: path.join(__dirname, './../dist'),
+            clean: false
         },
         module: {
             rules: [
