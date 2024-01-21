@@ -1,0 +1,23 @@
+{
+  "name": "mern-iot-dashboard",
+  "version": "1.0.0",
+  "description": "MERN Stack dashboard - material ui - iot",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "cd dist/ && node ./server.js",
+    "build": "cd backend/ && npm run build && cd ../frontend/ && npm run build",
+    "deploy": "wsl -e ./deploy-ssh.sh user host /home/user/repos/mern-iot-dashboard 0",
+    "test": "cd backend/ && npm run test && cd ../frontend/ && npm run test",
+    "bts": "npm run build && npm run test && npm run start:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnvan7/mern-iot-dashboard.git"
+  },
+  "author": "johnvan7",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/johnvan7/mern-iot-dashboard/issues"
+  },
+  "homepage": "https://github.com/johnvan7/mern-iot-dashboard#readme"
+}

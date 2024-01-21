@@ -4,7 +4,6 @@
   "description": "",
   "private": true,
   "scripts": {
-    "deploy": "npm run build && wsl -e ./deploy-ssh.sh ec2-user 15.160.173.128 /home/ec2-user/repos/pwc-service 0",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
