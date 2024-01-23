@@ -1,6 +1,8 @@
 # MERN Stack IoT Dashboard
 
-React.js dashboard - material ui - iot
+MongoDB Express.js React.js Node.js
+
+Typescript - material ui - iot
 
 <img src="./screenshots/sensor-1.png?raw=true" width=80% height=80%>
 
